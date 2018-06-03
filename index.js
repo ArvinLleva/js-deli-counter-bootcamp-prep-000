@@ -19,7 +19,7 @@ function currentLine(katzDeliLine){
   }
   else{
     for(var i = 0; i < katzDeliLine.length; i++){
-    array.push(`${i}. ${katzDeliLine[i]}, `)
+    array.push(`${i+1}. ${katzDeliLine[i]}, `)
     }
     return "The line is currently" + array
   }
